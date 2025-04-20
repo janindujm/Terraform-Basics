@@ -17,6 +17,6 @@ data "aws_ami" "amiId" {
 
 
 output "instance_id" {
-    description = "AMI ID of ubuntu instance"
-    value       = data.aws_ami.amiId.id
+  description = "AMI ID of ubuntu instance"
+  value       = data.aws_ami.amiId.id
 }
